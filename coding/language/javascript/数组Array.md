@@ -63,7 +63,7 @@ let b = colors.push('green'); //b = 3, colors = ['red', 'blue', 'green']
 let c = colors.pop(); // c = 'green', colors = ['red', 'blue']
 ````
 
-- 对列方法
+- 队列方法
     - shift()方法，移除数组的第一个元素并返回该元素，数组长度减一
     - unshift()方法，在数组前面添加元素，并返回新数组的长度
  ````
@@ -145,7 +145,7 @@ let d = a.splice(0, 1, ['orange','yellow']);//从0开始删除一个元素然后
 ````
 
 - 查找
-    - indexOf()方法 
+    - indexOf()方法     
     从数组的头部开始查找，接收两个参数，即要查找的元素和起始位置（可选），返回要查找元素在当前数组的位置
-    - lastIndexOf()方法
+    - lastIndexOf()方法      
     从数组的尾部开始查找，接收两个参数，即要查找的元素和起始位置（可选），返回要查找元素在当前数组的位置
